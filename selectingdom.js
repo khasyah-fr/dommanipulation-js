@@ -49,8 +49,8 @@
 // li[1].style.fontWeight = 'bold';
 // li[1].style.backgroundColor = 'yellow';
 
-// // Gives error
-// //items.style.backgroundColor = '#f4f4f4';
+// Gives error
+// li.style.backgroundColor = '#f4f4f4';
 
 // for(var i = 0; i < li.length; i++){
 //   li[i].style.backgroundColor = '#f4f4f4';
@@ -88,5 +88,3 @@
 //   odd[i].style.backgroundColor = '#f4f4f4';
 //   even[i].style.backgroundColor = '#ccc';
 // }
-
-
