@@ -44,7 +44,7 @@ let newDiv = document.createElement('div');
 
 //add class to div: className, classList
 newDiv.className = 'hello world';
-console.log(newDiv.classList.length);
+//console.log(newDiv.classList.length);
 
 //add id to div: id
 newDiv.id = 'hello1';
@@ -53,20 +53,19 @@ newDiv.id = 'hello1';
 newDiv.setAttribute('title', 'Pokemon');
 
 //create text node
-let newDivText = document.createTextNode('Hello Dunya');
+let newDivText = document.createTextNode('Hello New Div');
 
 //add text node to div
 newDiv.appendChild(newDivText);
 
 //insert to DOM
 
-let container = document.querySelector('header .container');
-let h1 = document.querySelector('header h1');
+// let container = document.querySelector('header .container');
+// let h1 = document.querySelector('header h1');
 
-newDiv.className = newDiv.className.concat(' bg-danger p-4 m-0')
+// newDiv.className = newDiv.className.concat(' bg-danger p-4 m-0')
 
-container.insertBefore(newDiv, h1);
+// container.insertBefore(newDiv, h1);
 
 
-
-console.log(newDiv);
+// console.log(newDiv);
